@@ -1,16 +1,29 @@
-# telegram_drawer_demo
+# Telegram Drawer Demo
 
-A new Flutter project.
+A Flutter project demonstrating a custom drawer similar to the Telegram app.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Custom Drawer**: Includes a header and expandable sections.
+- **Account Switching**: Allows switching between accounts with a `SnackBar` notification.
+- **Expandable Menu**: Uses `ExpansionTile` for collapsible sections.
+- **Navigation**: Includes navigation to different screens (e.g., My Profile, New Group, Contacts).
 
-A few resources to get you started if this is your first Flutter project:
+## How to Run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/telegram_drawer_demo.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd telegram_drawer_demo
+   ```
+3. Install the dependencies:
+   ```bash
+   flutter pub get
+   ```
+4. Run the app:
+   ```bash
+   flutter run
+   ```

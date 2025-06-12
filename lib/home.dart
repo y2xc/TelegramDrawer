@@ -5,7 +5,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 57, 94, 175),
+      backgroundColor: const Color.fromARGB(255, 65, 99, 173),
       appBar: AppBar(
         title: Text('Telegram'),
       ),
